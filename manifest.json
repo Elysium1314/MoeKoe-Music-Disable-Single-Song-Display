@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "阻止我喜欢听下出现神秘单曲",
+  "name": "阻止“我喜欢听”下出现神秘单曲",
   "plugin_id": "disable-single-song-display",
   "version": "1.0.0",
   "minversion": null,
@@ -8,7 +8,7 @@
   "author": {
     "name": "Elysium1314"
   },
-  "description": "阻止我喜欢听下出现神秘单曲",
+  "description": "阻止“我喜欢听”下出现神秘单曲",
   "permissions": ["storage"],
   "content_scripts": [
     {
@@ -20,7 +20,7 @@
   ],
   "action": {
     "default_popup": "popup.html",
-	"default_title": "阻止我喜欢听下出现神秘单曲"
+	"default_title": "阻止“我喜欢听”下出现神秘单曲"
   },
   "icons": {
     "256": "icons.jpg"
