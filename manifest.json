@@ -1,0 +1,28 @@
+{
+  "manifest_version": 3,
+  "name": "阻止我喜欢听下出现神秘单曲",
+  "plugin_id": "disable-single-song-display",
+  "version": "1.0.0",
+  "minversion": null,
+  "moekoe": true,
+  "author": {
+    "name": "Elysium1314"
+  },
+  "description": "阻止我喜欢听下出现神秘单曲",
+  "permissions": ["storage"],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "css": ["styles.css"],
+      "js": ["content.js"],
+      "run_at": "document_end"
+    }
+  ],
+  "action": {
+    "default_popup": "popup.html",
+	"default_title": "阻止我喜欢听下出现神秘单曲"
+  },
+  "icons": {
+    "256": "icons.jpg"
+  }
+}
